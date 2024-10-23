@@ -1,1 +1,14 @@
+public class Room {
+    private int roomNumber;      // Room number
+    private String roomType;     // Type of room (Single, Double, Suite)
+    private boolean isAvailable; // Room availability
+
+    //Constructor to set up room details
+    public Room(int roomNumber, String roomType) {
+        this.roomNumber = roomNumber;
+        this.roomType = roomType;
+        this.isAvailable = true; // Room is available by default
+    }
+
+}
 
