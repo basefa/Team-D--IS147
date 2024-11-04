@@ -1,1 +1,16 @@
+public class Guest {
+    private String name;    // Guest's full name
+    private String contactInfo;  // Guest's email
+    private String checkInDate;  // Guest's check-in date
+    private String checkOutDate; // Guest's check-out date
+
+    // Set the guest's information
+    public Guest(String name, String contactInfo, String checkInDate, String checkOutDate) {
+        this.name = name;
+        this.contactInfo = contactInfo;
+        this.checkInDate = checkInDate;
+        this.checkOutDate = checkOutDate;
+    }
+
+}
 
